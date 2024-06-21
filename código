@@ -1,0 +1,18 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            //declaração de variáveis
+            int num, resu, tabmult=1;
+            //entrada de dados
+            Console.WriteLine("Digite um número inteiro: ");
+            num = int.Parse(Console.ReadLine());
+            while (tabmult < 11)
+            {
+                resu = tabmult * num;
+                Console.WriteLine(num + "." + tabmult + "=" + resu);
+                tabmult++;
+            }
+            Console.ReadKey();
+        }
+    }
